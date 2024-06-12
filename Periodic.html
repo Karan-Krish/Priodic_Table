@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table of the Elements || KCC</title>
+    <link rel="stylesheet" href="atomic.css">
+    <link rel="stylesheet" href="atomic.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/Home.css">
+    <link rel="stylesheet" href="">
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+
+    <script src="/js/Index.js"></script>
+</head>
+
+<style>
+    .Home {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .main {
+        position: relative;
+    }
+
+
+
+
+
+    .AlkaliKey {
+        background-color: rgba(133, 194, 72, 0.87);
+        height: 29px;
+        width: 400px;
+        padding: 19px 90px;
+        border: 2px ridge black;
+    }
+
+    .AlkalineKey {
+        background-color: rgba(154, 67, 204, 0.904);
+        height: 29px;
+        width: 400px;
+        padding: 19px 90px;
+        border: 2px ridge black;
+    }
+
+    .TransitionKey {
+        background-color: rgba(69, 214, 166, 0.719);
+        height: 29px;
+        width: 400px;
+        padding: 19px 90px;
+        border: 2px ridge black;
+    }
+
+    .LanthanidesKey {
+        background-color: rgba(228, 35, 35, 0.849);
+        height: 29px;
+        width: 400px;
+        padding: 19px 90px;
+        border: 2px ridge black;
+    }
+
+    .ActinidesKey {
+        background-color: rgba(245, 132, 27, 0.829);
+        height: 29px;
+        width: 400px;
+        padding: 19px 90px;
+        border: 2px ridge black;
+    }
+
+    .NobleKey {
+        background-color: rgba(255, 20, 145, 0.808);
+        height: 29px;
+        width: 400px;
+        padding: 19px 90px;
+        border: 2px ridge black;
+    }
+
+    .HalogensKey {
+        background-color: rgba(0, 255, 106, 0.74);
+        height: 29px;
+        width: 400px;
+        padding: 19px 90px;
+        border: 2px ridge black;
+
+    }
+
+    .NonKey {
+        background-color: rgba(209, 60, 204, 0.884);
+        height: 29px;
+        width: 400px;
+        padding: 19px 90px;
+        border: 2px ridge black;
+    }
+
+    .SemiKey {
+        background-color: rgba(0, 253, 0, 0.637);
+        height: 29px;
+        width: 400px;
+        padding: 19px 90px;
+        border: 2px ridge black;
+    }
+
+    .BasicKey {
+        background-color: rgba(0, 183, 255, 0.815);
+        height: 29px;
+        width: 400px;
+        padding: 19px 90px;
+        border: 2px ridge black;
+    }
+
+    /* --------------------------------------_key hover-------------------------------------- */
+
+
+
+    .AlkaliKey:hover {
+        background-color: rgba(150, 235, 65, 0.918);
+        height: 29px;
+        width: 400px;
+        padding: 19px 90px;
+        border: 2px ridge black;
+    }
+
+    .AlkalineKey:hover {
+        background-color: rgb(162, 0, 255);
+        height: 29px;
+        width: 400px;
+        padding: 19px 90px;
+        border: 2px ridge black;
+    }
+
+    .TransitionKey:hover {
+        background-color: rgb(34, 233, 167);
+        height: 29px;
+        width: 400px;
+        padding: 19px 90px;
+        border: 2px ridge black;
+    }
+
+    .LanthanidesKey:hover {
+        background-color: rgba(255, 0, 0, 0.849);
+        height: 29px;
+        width: 400px;
+        padding: 19px 90px;
+        border: 2px ridge black;
+    }
+
+    .ActinidesKey:hover {
+        background-color: rgba(255, 123, 0, 0.89);
+        height: 29px;
+        width: 400px;
+        padding: 19px 90px;
+        border: 2px ridge black;
+    }
+
+    .NobleKey:hover {
+        background-color: rgba(255, 0, 136, 0.808);
+        height: 29px;
+        width: 400px;
+        padding: 19px 90px;
+        border: 2px ridge black;
+    }
+
+    .HalogensKey:hover {
+        background-color: rgb(0, 255, 106);
+        height: 29px;
+        width: 400px;
+        padding: 19px 90px;
+        border: 2px ridge black;
+
+    }
+
+    .NonKey:hover {
+        background-color: rgba(182, 49, 177, 0.884);
+        height: 29px;
+        width: 400px;
+        padding: 19px 90px;
+        border: 2px ridge black;
+    }
+
+    .SemiKey:hover {
+        background-color: rgb(0, 255, 0);
+        height: 29px;
+        width: 400px;
+        padding: 19px 90px;
+        border: 2px ridge black;
+    }
+
+    .BasicKey:hover {
+        background-color: rgb(0, 183, 255);
+        height: 29px;
+        width: 400px;
+        padding: 19px 90px;
+        border: 2px ridge black;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .KEY {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 80px;
+
+
+
+    }
+
+
+    .Print {
+        height: 25px;
+        width: 100px;
+
+    }
+
+
+
+    .logo {
+        color: #00ffd5;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 50px;
+    }
+
+
+    .nava {
+        color: #ffffff;
+
+    }
+
+    .nava:hover {
+        color: #00ffd5;
+
+    }
+</style>
+
+<body>
+
+
+
+    <div class="main">
+
+        <div class="topnav" id="myTopnav">
+            <a href="/html/Home.html" class="active"><i class="fa fa-fw fa-home"></i>Home</a>
+            <a href="/html/Periodic.html"> Periodic Table</a>
+            <a href="/html/MoleStru.html"> Molecule structure</a>
+            <a href="/html/Future.html">In future</a>
+
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+
+
+
+
+            <lord-icon src="https://cdn.lordicon.com/jxvckxja.json" trigger="hover" style="width:100px;height:50px">
+            </lord-icon>
+        </div>
+
+
+
+        <script>
+            const burger = document.querySelector('.burger');
+            const nav = document.querySelector('.nav-links');
+
+            burger.addEventListener('click', () => {
+                // Toggle active class for burger animation
+                burger.classList.toggle('active');
+
+                // Toggle nav-active class for showing/hiding nav links
+                nav.classList.toggle('nav-active');
+            });
+
+
+            // -------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+
+
+
+
+
+
+
+
+
+
+        <section id="Home">
+
+
+
+
+
+            <div class="KEY">
+                <ul class="sA">
+
+
+                    <div class="AlkaliKey">
+                        <h3 class="Alkalitext">Alkali Metals</h3>
+                    </div>
+                    <div class="AlkalineKey">
+                        <h3 class="Alkalinetext">Alkaline Earth Metals</h3>
+                    </div>
+                    <div class="TransitionKey">
+                        <h3 class="Transitiontext">Transition Metals</h3>
+                    </div>
+                    <div class="LanthanidesKey">
+                        <h3 class="Lanthanidestext">Lanthanides (Rare Earth) </h3>
+                    </div>
+                    <div class="ActinidesKey">
+                        <h3 class="Actinidestext">Actinides</h3>
+                    </div>
+
+                </ul>
+                <ul class="sB">
+
+                    <div class="BasicKey">
+                        <h3 class="Basictext">Basic Metals</h3>
+                    </div>
+                    <div class=" SemiKey">
+                        <h3 class=" Semitext"> Semi Metals</h3>
+                    </div>
+                    <div class=" NonKey ">
+                        <h3 class=" Nontext "> Non Metals</h3>
+                    </div>
+                    <div class="NobleKey">
+                        <h3 class="Nobletext">Noble Gases</h3>
+                    </div>
+                    <div class="HalogensKey">
+                        <h3 class="Halogenstext">Halogens</h3>
+                    </div>
+
+                </ul>
+            </div>
+
+        </section>
+
+
+
+
+
+        <section id="section">
+
+
+
+
+
+
+            <div class="">
+                <button onclick="window.location.href ='BA.html'" class="Box Alkali">
+                    <h1>H</h1>
+
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Alkali">
+                    <h1>Li </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Alkali">
+                    <h1>Na
+                    </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Alkali">
+                    <h1>K </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Alkali">
+                    <h1>Rb </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Alkali">
+                    <h1>Cs </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Alkali">
+                    <h1>fr </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="">
+
+                <div class="Space"></div>
+
+
+                <button onclick="window.location.href ='BA.html'" class="Box Alkaline">
+                    <h1>Be </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Alkaline">
+                    <h1>Mg </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Alkaline">
+                    <h1>Ca </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Alkaline">
+                    <h1>Sr </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Alkaline">
+                    <h1>Ba </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Alkaline">
+                    <h1>Rd </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+            </div>
+
+
+
+
+
+            <!---------------------- Transition Elemenys ( d - block ) --------------------------------------------->
+
+            <div class="">
+
+                <div class="Space"></div>
+                <div class="Space"></div>
+                <div class="Space"></div>
+
+
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Sc </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Y </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Lanthanum">
+                    <h1>La* </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Actininum">
+                    <h1>AC* </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button>
+
+            </div>
+
+
+            <div class="">
+
+                <div class="Space"></div>
+                <div class="Space"></div>
+                <div class="Space"></div>
+
+
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Ti </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Zr </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Hf </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Rf </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button>
+
+            </div>
+
+
+            <div class="">
+
+                <div class="Space"></div>
+                <div class="Space"></div>
+                <div class="Space"></div>
+
+
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>V </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Nb </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Ta </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Db </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button>
+
+            </div>
+
+
+            <div class="">
+
+                <div class="Space"></div>
+                <div class="Space"></div>
+                <div class="Space"></div>
+
+
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Cr </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Mo </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>W </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Sg </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button>
+
+            </div>
+
+
+            <div class="">
+
+                <div class="Space"></div>
+                <div class="Space"></div>
+                <div class="Space"></div>
+
+
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Mn </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Tc </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Re </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Bh </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button>
+
+            </div>
+
+
+            <div class="">
+
+                <div class="Space"></div>
+                <div class="Space"></div>
+                <div class="Space"></div>
+
+
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Fe </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Ru </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Os </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Hs </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button>
+
+            </div>
+
+
+            <div class="">
+
+                <div class="Space"></div>
+                <div class="Space"></div>
+                <div class="Space"></div>
+
+
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Co </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Rh </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Ir </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Mt </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button>
+
+            </div>
+
+
+            <div class="">
+
+                <div class="Space"></div>
+                <div class="Space"></div>
+                <div class="Space"></div>
+
+
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Ni </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Pd </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Pt </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Ds </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button>
+
+            </div>
+
+
+            <div class="">
+
+                <div class="Space"></div>
+                <div class="Space"></div>
+                <div class="Space"></div>
+
+
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Cu </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Ag </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Au </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Rg </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button>
+
+            </div>
+
+
+            <div class="">
+
+                <div class="Space"></div>
+                <div class="Space"></div>
+                <div class="Space"></div>
+
+
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Zn </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Cd </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Hg </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Transition">
+                    <h1>Cn </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button>
+
+            </div>
+
+
+
+            <!---------------------------------------------------------------------------------------------== -->
+
+
+
+
+            <div class="">
+
+                <div class="Space"></div>
+
+
+                <button onclick="window.location.href ='BA.html'" class="Box SemiMetals">
+                    <h1>B </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box BasicMetals">
+                    <h1>Al </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box BasicMetals">
+                    <h1>Ga </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box BasicMetals">
+                    <h1>In </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box BasicMetals">
+                    <h1>Tl </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box BasicMetals">
+                    <h1>Nh </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+            </div>
+
+
+            <div class="">
+
+                <div class="Space"></div>
+
+
+                <button onclick="window.location.href ='BA.html'" class="Box NonMetals">
+                    <h1>C </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box SemiMetals">
+                    <h1>Si </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box SemiMetals">
+                    <h1>Ge </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box BasicMetals">
+                    <h1>Sn </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box BasicMetals">
+                    <h1>Pb </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box BasicMetals">
+                    <h1>Fl </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+            </div>
+
+
+            <div class="">
+
+                <div class="Space"></div>
+
+
+                <button onclick="window.location.href ='BA.html'" class="Box NonMetals">
+                    <h1>N </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box NonMetals">
+                    <h1>P </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box SemiMetals">
+                    <h1>As </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box SemiMetals">
+                    <h1>Sb </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box BasicMetals">
+                    <h1>Bi </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box BasicMetals">
+                    <h1>Mc </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+            </div>
+
+
+            <div class="">
+
+                <div class="Space"></div>
+
+
+                <button onclick="window.location.href ='BA.html'" class="Box NonMetals">
+                    <h1>O </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box NonMetals">
+                    <h1>S </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box NonMetals">
+                    <h1>Se </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box SemiMetals">
+                    <h1>Te </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box SemiMetals">
+                    <h1>po </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box BasicMetals">
+                    <h1>Lv </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+            </div>
+
+
+            <div class="">
+
+                <div class="Space"></div>
+
+
+                <button onclick="window.location.href ='BA.html'" class="Box Halogens">
+                    <h1>F </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Halogens">
+                    <h1>Cl </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Halogens">
+                    <h1>Br </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Halogens">
+                    <h1>I </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Halogens">
+                    <h1>At </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Halogens">
+                    <h1>Ts </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+            </div>
+
+
+
+
+            <div class="">
+                <button onclick="window.location.href ='BA.html'" class="Box Zero">
+                    <h1>He </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Zero">
+                    <h1>Ne </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Zero">
+                    <h1>Ar </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Zero">
+                    <h1>Kr </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Zero">
+                    <h1>Xe </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Zero">
+                    <h1>Rn </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Zero">
+                    <h1>Og </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+        <!-------------------------------------Lanthanides Series----------------------------->
+        <div class="Inner">
+
+
+            <div class="lan">
+                <button onclick="window.location.href ='BA.html'" class="Box Lanthanides">
+                    <h1>Ce </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+
+                <button onclick="window.location.href ='BA.html'" class="Box Lanthanides">
+                    <h1>Pr </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+
+                <button onclick="window.location.href ='BA.html'" class="Box Lanthanides">
+                    <h1>Nd </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+
+                <button onclick="window.location.href ='BA.html'" class="Box Lanthanides">
+                    <h1>Pm </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+
+                <button onclick="window.location.href ='BA.html'" class="Box Lanthanides">
+                    <h1>Sm </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+
+                <button onclick="window.location.href ='BA.html'" class="Box Lanthanides">
+                    <h1>Eu </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+
+                <button onclick="window.location.href ='BA.html'" class="Box Lanthanides">
+                    <h1>Gd </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Lanthanides">
+                    <h1>Tb </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Lanthanides">
+                    <h1>Dy </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Lanthanides">
+                    <h1>10 </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Lanthanides">
+                    <h1>Ho </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Lanthanides">
+                    <h1>Er </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Lanthanides">
+                    <h1>Tm </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Lanthanides">
+                    <h1>Lu </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button>
+            </div>
+
+        </div>
+
+
+
+        <!-------------------------------------Actinides Series-------------------------------->
+        <div class="Inner">
+
+
+            <div class="lan">
+                <button onclick="window.location.href ='BA.html'" class="Box Actinides">
+                    <h1>Th </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+
+                <button onclick="window.location.href ='BA.html'" class="Box Actinides">
+                    <h1>Pa </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+
+                <button onclick="window.location.href ='BA.html'" class="Box Actinides">
+                    <h1>U </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+
+                <button onclick="window.location.href ='BA.html'" class="Box Actinides">
+                    <h1>U </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+
+                <button onclick="window.location.href ='BA.html'" class="Box Actinides">
+                    <h1>Np </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+
+                <button onclick="window.location.href ='BA.html'" class="Box Actinides">
+                    <h1>Pu </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+
+                <button onclick="window.location.href ='BA.html'" class="Box Actinides">
+                    <h1>Am </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Actinides">
+                    <h1>Cm </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Actinides">
+                    <h1>Bk </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Actinides">
+                    <h1>Cf </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Actinides">
+                    <h1>Es </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Actinides">
+                    <h1>Fm </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Actinides">
+                    <h1>Md </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button><br>
+                <button onclick="window.location.href ='BA.html'" class="Box Actinides">
+                    <h1>Lr </h1>
+                    <lord-icon src="https://cdn.lordicon.com/ffgfijah.json" trigger="hover"
+                        style="width:25px;height:50px">
+                    </lord-icon>
+                </button>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <style>
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+<script src="home.js">
+
+</script>
+
+
+
+
+</html>

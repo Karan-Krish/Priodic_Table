@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------- */
+
+#section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    padding-top: 80px;
+    padding-left: 70px;
+    background-color: white;
+    padding-right: 70px;
+
+
+
+
+}
+
+
+
+.Box {
+    height: 80px;
+    width: 65px;
+    font-size: 14px;
+
+}
+
+.Space {
+
+
+    height: 80px;
+    width: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+
+    }
+
+
+    #section {
+
+        width: 100%;
+        display: block;
+        padding-top: 40px;
+
+        padding-left: 10px;
+        padding-right: 10px;
+
+
+
+
+    }
+
+
+
+    .Box {
+        height: 40px;
+        width: 35px;
+        float: left;
+
+        font-size: 7px;
+        align-items: end;
+
+    }
+
+    .Space {
+
+        height: 0px;
+        width: 0px;
+    }
+
+
+    .lan {
+        display: flex;
+
+        float: right;
+        margin-right: 40px;
+    }
+}
+
+
+
+
+
+
+
+/* -------------------------------------------for block and element box-------------------- */
+
+
+
+
+
+
+.Alkali {
+    background-color: rgba(150, 235, 65, 0.918);
+}
+
+.Alkaline {
+    background-color: rgba(204, 107, 223, 0.904);
+}
+
+.Transition {
+    background-color: rgba(34, 233, 167, 0.719);
+}
+
+.Lanthanum {
+    background-color: rgba(228, 35, 35, 0.849);
+}
+
+.Actininum {
+    background-color: rgba(245, 132, 27, 0.89);
+}
+
+.Zero {
+    background-color: rgba(255, 20, 145, 0.808);
+}
+
+.Halogens {
+    background-color: rgba(0, 255, 106, 0.74);
+
+}
+
+.NonMetals {
+    background-color: rgba(209, 60, 204, 0.884);
+}
+
+.SemiMetals {
+    background-color: rgba(0, 253, 0, 0.637);
+}
+
+.BasicMetals {
+    background-color: rgba(0, 183, 255, 0.815);
+}
+
+
+
+
+
+
+
+
+
+
+
+.Alkali:hover {
+    background-color: rgb(128, 255, 0);
+}
+
+.Alkaline:hover {
+    background-color: rgb(212, 0, 255);
+}
+
+.Transition:hover {
+    background-color: rgb(0, 255, 170);
+}
+
+.Lanthanum:hover {
+    background-color: rgb(228, 35, 35);
+}
+
+.Actininum:hover {
+    background-color: rgb(255, 123, 0);
+}
+
+.Zero:hover {
+    background-color: rgb(255, 0, 136);
+}
+
+.Halogens:hover {
+    background-color: rgb(0, 255, 106);
+
+}
+
+.NonMetals:hover {
+    background-color: rgb(255, 0, 247);
+}
+
+.SemiMetals:hover {
+    background-color: rgba(0, 253, 0, 0.89);
+}
+
+.BasicMetals:hover {
+    background-color: rgb(0, 183, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Actinides {
+    background-color: rgba(245, 132, 27, 0.89);
+    font-size: 10px;
+}
+
+
+
+.Actinides:hover {
+    background-color: rgb(255, 123, 0);
+}
+
+
+
+
+
+.Lanthanides:hover {
+    background-color: rgb(228, 35, 35);
+}
+
+
+
+.Lanthanides {
+    font-size: 10px;
+    background-color: rgba(228, 35, 35, 0.849);
+}
+
+.lan {
+    display: flex;
+
+    float: right;
+    margin-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav-active {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        background-color: #333;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+
+    .nav-active li {
+        opacity: 0;
+    }
+
+    .burger.active .line1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .burger.active .line2 {
+        opacity: 0;
+    }
+
+    .burger.active .line3 {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------Header---------------------------------------- */
+.Home {
+    height: 100vh;
+    width: 100%;
+}
+
+.main {
+    position: relative;
+}
+
+
+
+
+.KEY {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 80px;
+
+
+
+}
+
+
+.Print {
+    height: 25px;
+    width: 100px;
+
+}
+
+
+
+.logo {
+    color: #00ffd5;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+
+.nava {
+    color: #ffffff;
+
+}
+
+.nava:hover {
+    color: #00ffd5;
+
+}
